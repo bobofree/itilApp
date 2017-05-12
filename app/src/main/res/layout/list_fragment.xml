@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/course_head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <UserDefinedView.CustomizeListView
+        android:id="@+id/lv_course_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></UserDefinedView.CustomizeListView>
+
+    <include
+        layout="@layout/course_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
